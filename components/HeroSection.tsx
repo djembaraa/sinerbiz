@@ -16,7 +16,7 @@ export default function HeroSection() {
       />
 
       {/* Overlay untuk membuat teks lebih mudah dibaca */}
-      <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
+      <div className="absolute inset-0 bg-gray-900 opacity-40 z-10"></div>
 
       {/* Konten Hero */}
       <div className="relative z-20 text-white max-w-2xl px-4">

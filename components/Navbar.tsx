@@ -11,11 +11,11 @@ import { MenuIcon } from "lucide-react"; // SunIcon dan MoonIcon dihapus
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full bg-gray-900 text-white shadow-lg">
+    <header className="sticky top-0 z-50 w-full bg-gray-200 text-gray-900 shadow-lg">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo Sinerbiz */}
         <a href="/" className="flex items-center space-x-2">
-          <span className="text-3xl font-bold text-white">Sinerbiz</span>{" "}
+          <span className="text-3xl font-bold text-gray-900">Sinerbiz</span>{" "}
           {/* Teks Logo putih, ukuran lebih besar */}
         </a>
 
@@ -26,33 +26,31 @@ export default function Navbar() {
           {/* Menggunakan relative dan after untuk underline yang lebih terkontrol */}
           <a
             href="/"
-            className="relative text-gray-300 hover:text-white font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300"
+            className="relative text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-gray-900 after:transition-all after:duration-300"
           >
             Home
           </a>
           <a
             href="/about"
-            className="relative text-gray-300 hover:text-white font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300"
+            className="relative text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-gray-900 after:transition-all after:duration-300"
           >
             About
           </a>
           {/* Tautan Services sekarang juga memiliki efek hover underline */}
           <a
             href="/services"
-            className="relative text-gray-300 hover:text-white font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300"
+            className="relative text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-gray-900 after:transition-all after:duration-300"
           >
             Services
           </a>
           <a
             href="/contact"
-            className="relative text-gray-300 hover:text-white font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300"
+            className="relative text-gray-700 hover:text-gray-900 font-medium transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-gray-900 after:transition-all after:duration-300"
           >
             Contact
           </a>
-          {/* Ikon Sun/Moon (contoh untuk dark mode toggle) - Dihapus */}
-          {/* Tombol Sign Up */}
           <Button className="bg-indigo-700 hover:bg-indigo-800 text-white rounded-lg px-6 py-2 shadow-md">
-            Sign Up
+            Pesan Sekarang
           </Button>
         </div>
 
@@ -63,7 +61,7 @@ export default function Navbar() {
           {/* Ikon Sun/Moon untuk mobile - Dihapus */}
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="text-white">
+              <Button variant="ghost" size="icon" className="text-gray-700">
                 {" "}
                 {/* Tombol hamburger putih */}
                 <MenuIcon className="h-6 w-6" />
@@ -72,7 +70,7 @@ export default function Navbar() {
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="w-[250px] sm:w-[300px] bg-gray-900 text-white"
+              className="w-[250px] sm:w-[300px] bg-gray-200 text-gray-700"
             >
               {" "}
               {/* Sheet content juga gelap */}
@@ -104,7 +102,7 @@ export default function Navbar() {
                   Contact
                 </a>
                 <Button className="bg-indigo-700 hover:bg-indigo-800 text-white rounded-lg px-6 py-2 shadow-md mt-4">
-                  Sign Up
+                  Pesan Sekarang
                 </Button>
               </nav>
             </SheetContent>
