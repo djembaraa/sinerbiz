@@ -17,8 +17,8 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo Sinerbiz */}
         <a href="/" className="flex items-center space-x-2">
-          <span className="text-3xl font-bold text-[#173362]">Sinerbiz</span>{" "}
-          {/* Teks Logo putih, ukuran lebih besar */}
+          {/* <span className="text-3xl font-bold text-[#173362]">Sinerbiz</span>{" "} */}
+          <img src={"/sinerbiz.png"} className="h-12 w-auto" />
         </a>
 
         {/* Navigasi Desktop */}

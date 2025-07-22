@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
                 </Button>
                 <Button
                   variant="outline"
-                  className=" text-white hover:bg-blue-50 hover:text-blue-700 rounded-lg px-8 py-3 text-lg transition-all duration-300"
+                  className=" text-white bg-gray-900 hover:bg-blue-50 hover:text-blue-700 rounded-lg px-8 py-3 text-lg transition-all duration-300"
                 >
                   Hubungi Penjualan
                 </Button>

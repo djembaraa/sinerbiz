@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["placehold.co"], // Tambahkan domain gambar Anda di sini
+    domains: [
+      "images.unsplash.com", // Mungkin sudah ada jika Anda menggunakan gambar Unsplash
+      "placehold.co", // Mungkin sudah ada jika Anda menggunakan placeholder
+      "blnnzbbbhhmojerscrlh.supabase.co", // <--- TAMBAHKAN HOSTNAME INI
+    ],
   },
 };
 
