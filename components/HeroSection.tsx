@@ -30,7 +30,7 @@ export default function HeroSection() {
         <div className="mt-8">
           <a
             href="/contact" // Ganti dengan link yang relevan, misalnya ke halaman kontak
-            className="group inline-flex items-center justify-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg"
+            className="group inline-flex items-center justify-center px-8 py-4 bg-[#173362] hover:bg-indigo-700 text-white rounded-xl text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg cursor-pointer"
           >
             Mulai Sekarang
             <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />

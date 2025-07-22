@@ -11,7 +11,7 @@ export default function AboutSection() {
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="relative w-full max-w-md md:max-w-none h-64 md:h-96 rounded-xl overflow-hidden shadow-lg">
             <Image
-              src="https://placehold.co/600x400/E0E7FF/000000?text=Sinerbiz+Team" // Ganti dengan URL gambar Anda
+              src="/meeting.jpg"
               alt="Tim Sinerbiz Bekerja"
               layout="fill"
               objectFit="cover"
@@ -35,7 +35,7 @@ export default function AboutSection() {
             Dengan platform marketplace kami di{" "}
             <a
               href="https://app.sinerbiz.com"
-              className="text-indigo-600 hover:underline font-semibold"
+              className="text-[#173362] hover:underline font-semibold"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,7 +44,7 @@ export default function AboutSection() {
             , kami memudahkan Anda menemukan layanan digital marketing yang
             tepat, kapan pun pun dan di mana pun.
           </p>
-          <Button className="bg-indigo-700 hover:bg-indigo-800 text-white rounded-lg px-8 py-3 text-lg shadow-md transition-all duration-300">
+          <Button className="bg-[#173362] cursor-pointer hover:bg-indigo-800 text-white rounded-lg px-8 py-3 text-lg shadow-md transition-all duration-300">
             Hubungi Kami Sekarang
           </Button>
         </div>

@@ -13,35 +13,35 @@ import {
 export default function FeaturedServices() {
   const services = [
     {
-      icon: <Users className="h-8 w-8 text-indigo-600" />,
+      icon: <Users className="h-8 w-8 text-[#173362]" />,
       title: "Influencer Marketing",
       description: "Jangkau audiens target Anda melalui influencer tepercaya.",
     },
     {
-      icon: <Megaphone className="h-8 w-8 text-indigo-600" />,
+      icon: <Megaphone className="h-8 w-8 text-[#173362]" />,
       title: "Media Partner",
       description:
         "Perluas jangkauan kampanye Anda dengan jaringan media kami.",
     },
     {
-      icon: <Newspaper className="h-8 w-8 text-indigo-600" />,
+      icon: <Newspaper className="h-8 w-8 text-[#173362]" />,
       title: "Portal Berita",
       description:
         "Publikasikan berita dan konten promosi di portal berita kami.",
     },
     {
-      icon: <BarChart2 className="h-8 w-8 text-indigo-600" />,
+      icon: <BarChart2 className="h-8 w-8 text-[#173362]" />,
       title: "Social Media Management",
       description: "Kelola dan optimalkan kehadiran media sosial bisnis Anda.",
     },
     {
-      icon: <Layout className="h-8 w-8 text-indigo-600" />,
+      icon: <Layout className="h-8 w-8 text-[#173362]" />,
       title: "Landing Page Development",
       description:
         "Buat landing page menarik dan konversi tinggi untuk kampanye Anda.",
     },
     {
-      icon: <Lightbulb className="h-8 w-8 text-indigo-600" />,
+      icon: <Lightbulb className="h-8 w-8 text-[#173362]" />,
       title: "Layanan Lainnya",
       description:
         "Solusi digital marketing lengkap untuk kebutuhan bisnis Anda.",

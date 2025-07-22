@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo Sinerbiz */}
         <a href="/" className="flex items-center space-x-2">
-          <span className="text-3xl font-bold text-gray-900">Sinerbiz</span>{" "}
+          <span className="text-3xl font-bold text-[#173362]">Sinerbiz</span>{" "}
           {/* Teks Logo putih, ukuran lebih besar */}
         </a>
 
@@ -52,7 +52,7 @@ export default function Navbar() {
             Contact
           </a>
           {/* Tombol Aplikasi Kami */}
-          <Button className="bg-indigo-700 hover:bg-indigo-800 text-white rounded-lg px-6 py-2 shadow-md inline-flex items-center space-x-2">
+          <Button className="bg-[#173362] hover:bg-indigo-800 text-white rounded-lg px-6 py-2 shadow-md inline-flex items-center space-x-2 cursor-pointer">
             <span>Aplikasi Kami</span>
             <ShoppingCart className="h-5 w-5" /> {/* Ikon keranjang belanja */}
           </Button>
@@ -105,7 +105,7 @@ export default function Navbar() {
                   Contact
                 </a>
                 {/* Tombol Aplikasi Kami di mobile */}
-                <Button className="bg-indigo-700 hover:bg-indigo-800 text-white rounded-lg px-6 py-2 shadow-md mt-4 inline-flex items-center justify-center space-x-2">
+                <Button className="bg-[#173362] hover:bg-indigo-800 text-white rounded-lg px-6 py-2 shadow-md mt-4 inline-flex items-center justify-center space-x-2 cursor-pointer">
                   <span>Aplikasi Kami</span>
                   <ShoppingCart className="h-5 w-5" />
                 </Button>
