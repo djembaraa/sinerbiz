@@ -2,6 +2,8 @@
 import HeroSection from "@/components/HeroSection"; // Import komponen HeroSection
 import FeaturedServices from "@/components/FeaturedServices"; // Import komponen FeaturedServices yang baru
 import AboutSection from "@/components/AboutSection";
+import GetTouch from "@/components/GetTouch";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -9,6 +11,8 @@ export default function HomePage() {
       <HeroSection />
       <FeaturedServices />
       <AboutSection />
+      <GetTouch />
+      <Footer />
     </div>
   );
 }
